@@ -11,7 +11,7 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
-  import {NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 export default class Menu extends React.Component {
   constructor(props) {

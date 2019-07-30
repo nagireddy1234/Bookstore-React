@@ -43,15 +43,15 @@ export default class Fantasycarousel extends Component {
 
     const slides = items.map(item => {
       return (
-        <CarouselItem onExiting={this.onExiting} onExited={this.onExited} key={item.id}>
-          <img src={item.image} alt={item.name} />
-          <CarouselCaption captionText={item.description} captionHeader={item.name} />
+        <CarouselItem onExiting={this.onExiting} onExited={this.onExited} key={item.asin} style={{height:"400px", margin:"0 auto"}}>
+          <img src={item.img} alt={item.title}  />
+          <CarouselCaption captionText={item.title}  />
         </CarouselItem>
       );
     });
 
     return (
-      <div className="container menuCarousel" style={{ maxWidth: 400, margin: "0 auto" }}>
+      <div className="container">
         <Carousel activeIndex={activeIndex} next={this.next} previous={this.previous}>
           <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
           {slides}
