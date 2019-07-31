@@ -3,6 +3,7 @@ import Menu from './Components/Navbar';
 import Welcome from "./Components/Welcome";
 import FooterPage from "./Components/Footer";
 import Warnignsign from "./Components/Alert";
+import Mybadge from "./Components/Mybadge";
 
 export default class Home extends Component {
  state = { 
@@ -14,6 +15,7 @@ export default class Home extends Component {
       <Menu />
       <Welcome />
       <Warnignsign text={this.createText()} />
+      <Mybadge text={this.createText()}/>
       <FooterPage />
     </div>
      );
