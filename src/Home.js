@@ -6,9 +6,15 @@ import Warnignsign from "./Components/Alert";
 import Mybadge from "./Components/Mybadge";
 
 export default class Home extends Component {
- state = { 
+
+ state = {
+
    }
-    createText =()=>{return "creating WarningSign which receives as a property a text. This text should be presented inside an Alert of type danger"}
+
+  createText = ( ) => {
+    return "creating WarningSign which receives as a property a text. This text should be presented inside an Alert of type danger"
+  }
+
   render() { 
     return ( 
       <div >
