@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import Singlebook from './singlebook';
+import Singlebook from './Singlebook';
 
 const Booklist = (props) => {
   const historyitems =props.historyitems.map(item =>{
@@ -15,8 +15,6 @@ const Booklist = (props) => {
       </MDBRow>
       </MDBContainer>   
       <input />
-
-
     </div>
     
   );

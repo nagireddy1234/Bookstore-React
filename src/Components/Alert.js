@@ -7,8 +7,8 @@ class Warnignsign extends Component {
  
   { 
     return ( 
-<Alert color="danger" style={{ margin:"20px auto"}}>
-       {this.props.text}
+      <Alert color="danger" style={{ margin:"20px auto"}}>
+        {this.props.text}
       </Alert>
      );
   }

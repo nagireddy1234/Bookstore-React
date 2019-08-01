@@ -3,8 +3,8 @@ import { Jumbotron, Button } from 'reactstrap';
 
 const Welcome = (props) => {
   return (
-    <div>
-      <Jumbotron className="mt-4 bg-danger text-white">
+    <div className="container">
+      <Jumbotron className="mt-5 bg-danger text-white">
         <h1 className="display-1 ">Hello, Welcome to my Book store</h1>
         <p className="lead">This is a Bookstore, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr className="my-2" />
